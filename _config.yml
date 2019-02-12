@@ -7,7 +7,7 @@
 
 # Site settings
 title: 秦飘的技术专栏
-brief-intro: Go and Python Coder
+brief-intro: #Go and Python Coder
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://qinpiao.github.io" # the base hostname & protocol for your site
 
