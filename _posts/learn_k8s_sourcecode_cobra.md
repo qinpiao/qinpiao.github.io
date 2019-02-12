@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Go 命令行库cobra的学习"
-date:   2019-02-12 21：27:00
+date:   2019-02-12 21:27:00
 categories: Go
 tags: Go Kubernetes 
 ---
@@ -29,4 +29,4 @@ cobra的安装由于墙的缘故会导致有些包无法顺利下载下来，这
     git clone https://github.com/golang/sys.git
     git clone https://github.com/golang/text.git
     ```
-2. 再执行`go get -u github.com/spf13/cobra/cobra`就能安装好cobra了
+2. 再执行 `go get -u github.com/spf13/cobra/cobra` 就能安装好cobra了
