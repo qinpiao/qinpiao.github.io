@@ -30,5 +30,3 @@ cobra的安装由于墙的缘故会导致有些包无法顺利下载下来，这
     git clone https://github.com/golang/text.git
     ```
 2. 再执行`go get -u github.com/spf13/cobra/cobra`就能安装好cobra了
-
- 
