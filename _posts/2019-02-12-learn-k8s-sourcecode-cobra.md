@@ -32,6 +32,9 @@ github地址是：https://github.com/spf13/cobra。
 了解了这个框架，再去看这些Kubernetes、etcd等开源项目的代码时，也就大概知道如何去看了，这也是我学习cobra的目的
 
 
+
+
+
 ## 安装
 
 cobra的安装由于墙的缘故会导致有些包无法顺利下载下来，这里我们使用git clone的形式绕过
