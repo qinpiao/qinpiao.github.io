@@ -404,6 +404,7 @@ cobra还有非常多的其他特性，这里我们只简单说明一下
 * 钩子函数。前面我们介绍了命令执行时会去执行命令Run字段定义的回调函数，cobra还提供了四个函数：PersistentPreRun、PreRun、PostRun、PersistentPostRun，可以在执行这个回调函数之前和之后执行。它们的执行顺序依次是：PersistentPreRun、PreRun、Run、PostRun、PersistentPostRun。而且对于PersistentPreRun和PersistentPostRun，子命令是继承的，也就是说子命令如果没有自定义自己的PersistentPreRun和PersistentPostRun，那它就会执行父命令的这两个函数。
 * 可选的错误处理函数。
 * 智能提示。比如下面的：
+
 ```
 ➜  cobra_exp1 ./app eoch
 Error: unknown command "eoch" for "app"
