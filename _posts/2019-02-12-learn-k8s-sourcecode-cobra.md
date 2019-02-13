@@ -10,7 +10,7 @@ tags: Go Kubernetes
 {:toc}
 
 
-Cobra是spf13写的一个编写/生成交互式命令程序的框架，有很多知名的开源项目都使用了这个框架：
+[Cobra](https://github.com/spf13/cobra)是spf13写的一个编写/生成交互式命令程序的框架，有很多知名的开源项目都使用了这个框架：
 
 * Kubernetes
 * Hugo
@@ -27,7 +27,6 @@ Cobra是spf13写的一个编写/生成交互式命令程序的框架，有很多
 * GiantSwarm's swarm
 * Nanobox/Nanopack
 
-github地址是：https://github.com/spf13/cobra。
 
 了解了这个框架，再去看这些Kubernetes、etcd等开源项目的代码时，也就大概知道如何去看了，这也是我学习cobra的目的
 
