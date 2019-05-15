@@ -122,7 +122,9 @@ def ConvertKey(subjson, prefix):
 ```
 
 
-### 实现2-32进制中任意进制的数转换成指定进制的数,如2进制数据1111转为8进制数据:17,要求函数输入为number, fromBase, toBase 输出为转换后的数据
+### 实现2-32进制中任意进制的数转换成指定进制的数
+
+如2进制数据1111转为8进制数据:17,要求函数输入为number, fromBase, toBase 输出为转换后的数据
 
 ```python
 def BinaryConvert(number, fromBase, toBase):
